@@ -136,7 +136,7 @@ const PROPFIND_BODY = `<?xml version="1.0" encoding="utf-8"?>
   </prop>
 </propfind>`;
 
-// eslint-disable-next-line max-params
+// oxlint-disable-next-line max-params
 async function propfind(
 	endpoint: string,
 	token: string,
@@ -206,7 +206,7 @@ export async function getStat(
 	throw new Error(`WebDAV stat not found for ${path}`);
 }
 
-// eslint-disable-next-line max-params
+// oxlint-disable-next-line max-params
 export async function getDirectoryContents(
 	endpoint: string,
 	token: string,
