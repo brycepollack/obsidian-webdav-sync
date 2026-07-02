@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## WebDAV Sync v1.0.0 - 2026-07-02
+
+- Fork of hesprs/obsidian-webdav-sync with custom request headers support.
+
 ## Obsidian WebDAV Sync v2.5.11 - 2026-06-02
 
 - Fixed the bug that causes smart merge to fail due to undefined iterator.
